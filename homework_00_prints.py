@@ -25,7 +25,7 @@ import requests
 
 
 #Escribe aqui tu numero de cuenta. Si tienes dudas consulta el README.md
-numeroDeCuenta = ''
+numeroDeCuenta = '316268277'
 
 
 '''
@@ -60,7 +60,7 @@ def tarea0():
     # is_normal 
     
     #If you have any questions, see our video on Youtube
-    return 
+    return round(dm.median,4), round(dim.var_95,6),dim.is_normal
 
 
 #NO MODIFICAR
